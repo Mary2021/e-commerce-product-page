@@ -12,7 +12,6 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
   - [Built with](#built-with)
   - [Useful links](#useful-links)
 - [Author](#author)
-- [Getting Started with Create React App](#getting-started-with-create-react-app)
 
 ## Overview
 
@@ -23,7 +22,7 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - Switch the large product image by clicking on the small thumbnail images
 - Users can see hover states for all interactive elements on the page
-- Open a lightbox gallery by clicking on the large product image
+- Open a lightbox gallery by clicking on the large product image (needs to be added)
 - Add items to the cart
 - View the cart and remove items from it
 
@@ -49,24 +48,28 @@ This template provides a minimal setup to get React working in Vite with HMR and
 https://vitejs.dev/guide/
 
 
-## React-bootstrap
-- [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction), [See also](https://react-bootstrap.netlify.app/)
+### React-bootstrap
+
+- [React Bootstrap](https://react-bootstrap.netlify.app/)
 
 `npm install react-bootstrap bootstrap`
 
-## Redux 
-`npm install @reduxjs/toolkit`
-`npm i react-redux`
+### Redux 
 
-## Testing
+- `npm install @reduxjs/toolkit`
+- `npm i react-redux`
+
+### Testing
+
 [Vitest and React Testing Library](https://victorbruce82.medium.com/vitest-with-react-testing-library-in-react-created-with-vite-3552f0a9a19a)
 
-`npm install --save-dev vitest`
-add script => "test": "vitest"
-`npm install --save-dev jsdom`
-`npm install --save-dev @testing-library/jest-dom @testing-library/react @testing-library/user-event`
-add to vite.config =>
+- `npm install --save-dev vitest`
+- add script => "test": "vitest"
+- `npm install --save-dev jsdom`
+- `npm install --save-dev @testing-library/jest-dom @testing-library/react @testing-library/user-event`
+- add to vite.config =>
 
+```javascript
 test: {
   //add jsdom to vite
   environment: 'jsdom',
@@ -75,8 +78,10 @@ test: {
   //include this setup test file
   setupFiles: './src/tests/setup.jsx', // assuming the test folder is in the src of our project
 }
+```
 
-## Web-vitals
+### Web-vitals
+
 [Install web-vitals](https://www.npmjs.com/package/web-vitals)
 
 ### Useful links

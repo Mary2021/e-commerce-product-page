@@ -1,4 +1,1584 @@
-#root {
+@media only screen and (max-width: 426px) {
+
+  /* header and nav */
+  .headerContainer {
+    padding: 20px;
+  }
+
+  .avatar {
+    height: 1.5rem;
+  }
+
+  .avatar:active {
+    border: solid;
+    border-radius: 90%;
+    border-color: hsl(26, 100%, 55%, 1.0);
+  }
+
+  div.hidden {
+    visibility: hidden;
+  }
+
+  div.visible {
+    visibility: visible;
+  }
+
+  .nav-link {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+  }
+
+  .nav-link:focus {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+  }
+
+  .nav-link:active {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: hsl(26, 100%, 55%);
+  }
+
+  .nav-link:hover {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: hsl(26, 100%, 55%);
+  }
+
+   /* cart modal */
+   .modal-backdrop.show {
+    opacity: 0;
+  }
+
+  .modal-content {
+    width: 95%; 
+    height: 15em;
+  }
+
+  .modal.show {
+    position: relative;
+    top: -810px;
+    left: 10px;
+  }
+
+  .modal-body {
+    display: grid;
+  }
+
+  .modal-title{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:medium;
+    font-weight: bold;
+  }
+
+  .modalRow {
+    align-items: center;
+    padding-bottom: 7%;
+  }
+
+  .modalThumbCol {
+    padding-right: 0%;
+    text-align: start;
+  }
+
+  .modalThumb {
+    width: 80%;
+    border-radius: 10%;
+  }
+
+  .modalText {
+    text-align: start;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .emptyModalText {
+    text-align: center;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .modalDelBtn {
+    padding-left: 1%;
+    padding-right: 0%;
+  }
+
+  .modalCheckoutBtn{
+    width: 100%;
+    height: 80%;
+    background-color: hsl(26, 100%, 55%, 1.0);
+    border-style: none;
+  }
+
+  .cartBadge {
+    color:hsl(0, 0%, 100%) !important;
+    background: hsl(26, 100%, 55%, 1.0) !important;
+    position: sticky;
+    vertical-align:super;
+  }
+
+  /* main */
+  .w-75 {
+    width: 100%!important;
+  }
+
+  .ms-2 {
+    margin-left: 0rem !important;
+  }
+
+  .me-2 {
+    margin-right: 0rem !important;
+  }
+  .carousel-control-prev-icon {
+    background-image: url('./images/icon-previous.svg');
+    background-size: 25%;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url('./images/icon-next.svg');
+    background-size: 25%;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 100%;
+  }
+
+  .companyName {
+    text-transform: uppercase;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .lowerPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .discountBadge {
+    color: hsl(26, 100%, 55%);
+    background: hsl(25, 100%, 94%);
+  }
+
+  .regularPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .quantity {
+    padding-left: 35%;
+  }
+
+  .cartBtn {
+    background-color: hsl(26, 100%, 55%);
+    border-style: none;
+  }
+
+  .cartBtn:hover {
+    background-color: hsl(25, 100%, 94%);
+    border-style: none;
+  }
+
+  .cartBtn:active {
+    background-color: hsl(25, 100%, 94%) !important;
+    border-style: none;
+  }
+
+  .cartImg {
+    filter: invert(1) brightness(2);
+    padding-right: 1rem;
+  }
+
+  /* footer */
+  .footerContainer {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 576px) {
+
+  /* header and nav */
+  .headerContainer {
+    padding: 20px;
+  }
+
+  .avatar {
+    height: 1.5rem;
+  }
+
+  .avatar:active {
+    border: solid;
+    border-radius: 90%;
+    border-color: hsl(26, 100%, 55%, 1.0);
+  }
+
+  div.hidden {
+    visibility: hidden;
+  }
+
+  div.visible {
+    visibility: visible;
+  }
+
+  .nav-link {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+  }
+
+  .nav-link:focus {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+  }
+
+  .nav-link:active {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: hsl(26, 100%, 55%);
+  }
+
+  .nav-link:hover {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: hsl(26, 100%, 55%);
+  }
+
+   /* cart modal */
+   .modal-backdrop.show {
+    opacity: 0;
+  }
+
+  .modal-content {
+    width: 95%; 
+    height: 18em;
+  }
+
+  .modal.show {
+    position: relative;
+    top: -810px;
+    left: 10px;
+  }
+
+  .modal-body {
+    display: grid;
+  }
+
+  .modal-title{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:medium;
+    font-weight: bold;
+  }
+
+  .modalRow {
+    align-items: center;
+    padding-bottom: 7%;
+  }
+
+  .modalThumbCol {
+    padding-right: 0%;
+    text-align: start;
+  }
+
+  .modalThumb {
+    width: 80%;
+    border-radius: 10%;
+  }
+
+  .modalText {
+    text-align: start;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .emptyModalText {
+    text-align: center;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .modalDelBtn {
+    padding-left: 1%;
+    padding-right: 0%;
+  }
+
+  .modalCheckoutBtn{
+    width: 100%;
+    height: 80%;
+    background-color: hsl(26, 100%, 55%, 1.0);
+    border-style: none;
+  }
+
+  .cartBadge {
+    color:hsl(0, 0%, 100%) !important;
+    background: hsl(26, 100%, 55%, 1.0) !important;
+    position: sticky;
+    vertical-align:super;
+  }
+
+  /* main */
+  .carousel-control-prev-icon {
+    background-image: url('./images/icon-previous.svg');
+    background-size: 25%;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url('./images/icon-next.svg');
+    background-size: 25%;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 100%;
+  }
+
+  .companyName {
+    text-transform: uppercase;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .lowerPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .discountBadge {
+    color: hsl(26, 100%, 55%);
+    background: hsl(25, 100%, 94%);
+  }
+
+  .regularPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .quantity {
+    padding-left: 35%;
+  }
+
+  .cartBtn {
+    background-color: hsl(26, 100%, 55%);
+    border-style: none;
+  }
+
+  .cartBtn:hover {
+    background-color: hsl(25, 100%, 94%);
+    border-style: none;
+  }
+
+  .cartBtn:active {
+    background-color: hsl(25, 100%, 94%) !important;
+    border-style: none;
+  }
+
+  .cartImg {
+    filter: invert(1) brightness(2);
+    padding-right: 1rem;
+  }
+
+  /* footer */
+  .footerContainer {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+
+  /* header and nav */
+  .headerContainer {
+    padding: 20px;
+  }
+
+  .avatar {
+    height: 1.5rem;
+  }
+
+  .avatar:active {
+    border: solid;
+    border-radius: 90%;
+    border-color: hsl(26, 100%, 55%, 1.0);
+  }
+
+  div.hidden {
+    visibility: hidden;
+  }
+
+  div.visible {
+    visibility: visible;
+  }
+
+  .nav-link {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+  }
+
+  .nav-link:focus {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 0%);
+  }
+
+  .nav-link:active {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: hsl(26, 100%, 55%);
+  }
+
+  .nav-link:hover {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    color: hsl(26, 100%, 55%);
+  }
+
+   /* cart modal */
+   .modal-backdrop.show {
+    opacity: 0;
+  }
+
+  .modal-content {
+    width: 70%; 
+    height: 15em;
+  }
+
+  .modal.show {
+    position: relative;
+    top: -575px;
+    left: 270px;
+  }
+
+  .modal-body {
+    display: grid;
+  }
+
+  .modal-title{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:medium;
+    font-weight: bold;
+  }
+
+  .modalRow {
+    align-items: center;
+    padding-bottom: 7%;
+  }
+
+  .modalThumbCol {
+    padding-right: 0%;
+    text-align: start;
+  }
+
+  .modalThumb {
+    width: 80%;
+    border-radius: 10%;
+  }
+
+  .modalText {
+    text-align: start;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .emptyModalText {
+    text-align: center;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .modalDelBtn {
+    padding-left: 1%;
+    padding-right: 0%;
+  }
+
+  .modalCheckoutBtn{
+    width: 100%;
+    height: 80%;
+    background-color: hsl(26, 100%, 55%, 1.0);
+    border-style: none;
+  }
+
+  .cartBadge {
+    color:hsl(0, 0%, 100%) !important;
+    background: hsl(26, 100%, 55%, 1.0) !important;
+    position: sticky;
+    vertical-align:super;
+  }
+
+  /* main */
+  .carousel-control-prev-icon {
+    background-image: url('./images/icon-previous.svg');
+    background-size: 25%;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url('./images/icon-next.svg');
+    background-size: 25%;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 100%;
+  }
+
+  .companyName {
+    text-transform: uppercase;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .lowerPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .discountBadge {
+    color: hsl(26, 100%, 55%);
+    background: hsl(25, 100%, 94%);
+  }
+
+  .regularPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .quantity {
+    padding-left: 35%;
+  }
+
+  .cartBtn {
+    background-color: hsl(26, 100%, 55%);
+    border-style: none;
+  }
+
+  .cartBtn:hover {
+    background-color: hsl(25, 100%, 94%);
+    border-style: none;
+  }
+
+  .cartBtn:active {
+    background-color: hsl(25, 100%, 94%) !important;
+    border-style: none;
+  }
+
+  .cartImg {
+    filter: invert(1) brightness(2);
+    padding-right: 1rem;
+  }
+
+  /* footer */
+  .footerContainer {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .appContainer {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+  }
+
+  /* header */
+  .headerContainer {
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+
+  .logo {
+    padding-right: 0px !important;
+  }
+
+  .linkList {
+    padding-left: 0px !important;
+  }
+
+  .navLink {
+    color: gray;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .navLink:hover {
+    color: hsl(0, 0%, 0%) !important;
+  }
+
+  .navLink:focus{
+    color: hsl(0, 0%, 0%);
+  }
+
+  .navLink:active{
+    color: hsl(0, 0%, 0%);
+    border-bottom: 2px solid hsl(26, 100%, 55%);
+  }
+
+  .avatar {
+    height: 2rem;
+  }
+
+  .avatar:active {
+    border: solid;
+    border-radius: 90%;
+    border-color: hsl(26, 100%, 55%, 1.0);
+  }
+
+  /* cart modal */
+  .modal-backdrop.show {
+    opacity: 0;
+  }
+
+  .modal-content {
+    width: 70%; 
+    height: 15em;
+  }
+
+  .modal.show {
+    position: relative;
+    top: -575px;
+    left: 270px;
+  }
+
+  .modal-body {
+    display: grid;
+  }
+
+  .modal-title{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:medium;
+    font-weight: bold;
+  }
+
+  .modalRow {
+    align-items: center;
+    padding-bottom: 7%;
+  }
+
+  .modalThumbCol {
+    padding-right: 0%;
+    text-align: start;
+  }
+
+  .modalThumb {
+    width: 80%;
+    border-radius: 10%;
+  }
+
+  .modalText {
+    text-align: start;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .emptyModalText {
+    text-align: center;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .modalDelBtn {
+    padding-left: 1%;
+    padding-right: 0%;
+  }
+
+  .modalCheckoutBtn{
+    width: 100%;
+    height: 80%;
+    background-color: hsl(26, 100%, 55%, 1.0);
+    border-style: none;
+  }
+
+  .cartBadge {
+    color:hsl(0, 0%, 100%) !important;
+    background: hsl(26, 100%, 55%, 1.0) !important;
+    position: sticky;
+    vertical-align:super;
+  }
+
+  /* main */
+  .mainContainer {
+    padding-top: 5%;
+  }
+
+  .tabletFigure {
+    width: 100% !important;
+  }
+
+  .carousel-inner {
+    border-radius: 5%;
+  }
+
+  .carousel-indicators {
+    top: 105%;
+    margin: 0%;
+    border: 0.1em !important;
+  }
+
+  .carousel-indicators .active {
+    opacity: 0.3 !important;
+    border: 0.1em;
+    border-style: solid;
+    border-color: hsl(26, 100%, 55%);
+  }
+
+  .carousel-indicators button {
+    background-size: cover;
+    background-position: center;
+    width: 8dvw !important;
+    height: 8dvh !important;
+    border-radius: 20%;
+    border: 0.1em solid transparent !important;
+    opacity: 1 !important;
+  }
+
+  .carousel-indicators button:active {
+    opacity: 0.5 !important;
+  }
+
+  .carousel-indicators button:hover {
+    opacity: 0.5 !important;
+  }
+
+  #btn1 {
+    background-image: url('./images/image-product-1-thumbnail.jpg') !important;
+  }
+
+  #btn2 {
+    background-image: url('./images/image-product-2-thumbnail.jpg') !important;
+  }
+
+  #btn3 {
+    background-image: url('./images/image-product-3-thumbnail.jpg') !important;
+  }
+
+  #btn4 {
+    background-image: url('./images/image-product-4-thumbnail.jpg') !important;
+  }
+
+  .productInfo {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .companyName {
+    text-transform: uppercase;
+  }
+
+  .productHeading {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+  }
+
+  .productText {
+    letter-spacing: 1px;
+  }
+
+  .lowerPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .discountBadge {
+    color: hsl(26, 100%, 55%);
+    background: hsl(25, 100%, 94%);
+  }
+
+  .regularPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .cartBtn {
+    background-color: hsl(26, 100%, 55%);
+    border-style: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .cartBtn:hover {
+    background-color: hsl(25, 100%, 94%);
+    border-style: none;
+  }
+
+  .cartBtn:active {
+    background-color: hsl(25, 100%, 94%) !important;
+    border-style: none;
+  }
+
+  .cartImg {
+    filter: invert(1) brightness(2);
+    padding-right: 1rem;
+  }
+
+  /* footer */
+  .footerContainer {
+    padding-top: 10%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .appContainer {
+    margin-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  /* header */
+  .headerContainer {
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+
+  .navLink {
+    color: gray;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .navLink:hover {
+    color: hsl(0, 0%, 0%) !important;
+  }
+
+  .navLink:focus{
+    color: hsl(0, 0%, 0%);
+  }
+
+  .navLink:active{
+    color: hsl(0, 0%, 0%);
+    border-bottom: 2px solid hsl(26, 100%, 55%);
+  }
+
+  .avatar {
+    height: 2rem;
+  }
+
+  .avatar:active {
+    border: solid;
+    border-radius: 90%;
+    border-color: hsl(26, 100%, 55%, 1.0);
+  }
+
+  /* cart modal */
+  .modal-backdrop.show {
+    opacity: 0;
+  }
+
+  .modal-content {
+    width: 70%; 
+    height: 15em;
+  }
+
+  .modal.show {
+    position: relative;
+    top: -600px;
+    left: 380px;
+  }
+
+  .modal-body {
+    display: grid;
+  }
+
+  .modal-title{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size:medium;
+    font-weight: bold;
+  }
+
+  .modalRow {
+    align-items: center;
+    padding-bottom: 7%;
+  }
+
+  .modalThumbCol {
+    padding-right: 0%;
+    text-align: start;
+  }
+
+  .modalThumb {
+    width: 80%;
+    border-radius: 10%;
+  }
+
+  .modalText {
+    text-align: start;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .emptyModalText {
+    text-align: center;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .modalDelBtn {
+    padding-left: 1%;
+    padding-right: 0%;
+  }
+
+  .modalCheckoutBtn{
+    width: 100%;
+    height: 80%;
+    background-color: hsl(26, 100%, 55%, 1.0);
+    border-style: none;
+  }
+
+  .cartBadge {
+    color:hsl(0, 0%, 100%) !important;
+    background: hsl(26, 100%, 55%, 1.0) !important;
+    position: sticky;
+    vertical-align:super;
+  }
+
+  /* main */
+  .mainContainer {
+    padding-top: 5%;
+  }
+
+  .carousel-inner {
+    border-radius: 5%;
+  }
+
+  .carousel-indicators {
+    top: 105%;
+    margin: 0%;
+  }
+
+  .carousel-indicators button {
+    background-size: cover;
+    background-position: center;
+    width: 8dvw !important;
+    height: 8dvh !important;
+    border-radius: 20%;
+    border: 0.1em solid transparent !important;
+    opacity: 1 !important;
+  }
+
+  .carousel-indicators button:active {
+    opacity: 0.5 !important;
+  }
+
+  .carousel-indicators button:hover {
+    opacity: 0.5 !important;
+  }
+
+  #btn1 {
+    background-image: url('./images/image-product-1-thumbnail.jpg') !important;
+  }
+
+  #btn2 {
+    background-image: url('./images/image-product-2-thumbnail.jpg') !important;
+  }
+
+  #btn3 {
+    background-image: url('./images/image-product-3-thumbnail.jpg') !important;
+  }
+
+  #btn4 {
+    background-image: url('./images/image-product-4-thumbnail.jpg') !important;
+  }
+
+  .carousel-indicators .active {
+    opacity: 0.3 !important;
+    border: 0.1em solid hsl(26, 100%, 55%, 1.0) !important;
+  }
+
+  .productInfo {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .companyName {
+    text-transform: uppercase;
+  }
+
+  .productHeading {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+  }
+
+  .productText {
+    letter-spacing: 1px;
+  }
+
+  .lowerPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .discountBadge {
+    color: hsl(26, 100%, 55%);
+    background: hsl(25, 100%, 94%);
+  }
+
+  .regularPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .cartBtn {
+    background-color: hsl(26, 100%, 55%);
+    border-style: none;
+  }
+
+  .cartBtn:hover {
+    background-color: hsl(25, 100%, 94%);
+    border-style: none;
+  }
+
+  .cartBtn:active {
+    background-color: hsl(25, 100%, 94%) !important;
+    border-style: none;
+  }
+
+  .cartImg {
+    filter: invert(1) brightness(2);
+    padding-right: 1rem;
+  }
+
+  /* footer */
+  .footerContainer {
+    padding-top: 10%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .appContainer {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+
+  /* header */
+  .headerContainer {
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+
+  .navLink {
+    color: gray;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .navLink:hover {
+    color: hsl(0, 0%, 0%) !important;
+  }
+
+  .navLink:focus{
+    color: hsl(0, 0%, 0%);
+  }
+
+  .navLink:active{
+    color: hsl(0, 0%, 0%);
+    border-bottom: 2px solid hsl(26, 100%, 55%);
+  }
+
+  .avatar {
+    height: 2rem;
+  }
+
+  .avatar:active {
+    border: solid;
+    border-radius: 90%;
+    border-color: hsl(26, 100%, 55%, 1.0);
+  }
+
+  /* cart modal */
+  .modal-backdrop.show {
+    opacity: 0;
+  }
+
+  .modal-content {
+    width: 70%;
+    height: 15em;
+  }
+
+  .modal.show {
+    position: relative;
+    top: -670px;
+    left: 500px;
+  }
+
+  .modal-body {
+    display: grid;
+  }
+
+  .modal-title {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .modalRow {
+    align-items: center;
+    padding-bottom: 7%;
+  }
+
+  .modalThumbCol {
+    padding-right: 0%;
+    text-align: start;
+  }
+
+  .modalThumb {
+    width: 80%;
+    border-radius: 10%;
+  }
+
+  .modalText {
+    text-align: start;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .emptyModalText {
+    text-align: center;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .modalDelBtn {
+    padding-left: 1%;
+    padding-right: 0%;
+  }
+
+  .modalCheckoutBtn {
+    width: 100%;
+    height: 80%;
+    background-color: hsl(26, 100%, 55%, 1.0);
+    border-style: none;
+  }
+
+  .cartBadge {
+    color:hsl(0, 0%, 100%) !important;
+    background: hsl(26, 100%, 55%, 1.0) !important;
+    position: sticky;
+    vertical-align:super;
+  }
+
+  /* main */
+  .mainContainer {
+    padding-top: 5%;
+  }
+
+  .carousel-inner {
+    border-radius: 5%;
+  }
+
+  .carousel-indicators {
+    top: 105%;
+    margin: 0%;
+  }
+
+  .carousel-indicators button {
+    background-size: cover;
+    background-position: center;
+    width: 8dvw !important;
+    height: 8dvh !important;
+    border-radius: 20%;
+    border: 0.1em solid transparent !important;
+    opacity: 1 !important;
+  }
+
+  .carousel-indicators button:active {
+    opacity: 0.5 !important;
+  }
+
+  .carousel-indicators button:hover {
+    opacity: 0.5 !important;
+  }
+
+  #btn1 {
+    background-image: url('./images/image-product-1-thumbnail.jpg') !important;
+  }
+
+  #btn2 {
+    background-image: url('./images/image-product-2-thumbnail.jpg') !important;
+  }
+
+  #btn3 {
+    background-image: url('./images/image-product-3-thumbnail.jpg') !important;
+  }
+
+  #btn4 {
+    background-image: url('./images/image-product-4-thumbnail.jpg') !important;
+  }
+
+  .carousel-indicators .active {
+    opacity: 0.3 !important;
+    border: 0.1em solid hsl(26, 100%, 55%, 1.0) !important;
+  }
+
+  .productInfo {
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .companyName {
+    text-transform: uppercase;
+  }
+
+  .productHeading {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+  }
+
+  .productText {
+    letter-spacing: 1px;
+  }
+
+  .lowerPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .discountBadge {
+    color: hsl(26, 100%, 55%);
+    background: hsl(25, 100%, 94%);
+  }
+
+  .regularPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .cartBtn {
+    background-color: hsl(26, 100%, 55%);
+    border-style: none;
+  }
+
+  .cartBtn:hover {
+    background-color: hsl(25, 100%, 94%);
+    border-style: none;
+  }
+
+  .cartBtn:active {
+    background-color: hsl(25, 100%, 94%) !important;
+    border-style: none;
+  }
+
+  .cartImg {
+    filter: invert(1) brightness(2);
+    padding-right: 1rem;
+  }
+
+  /* footer */
+  .footerContainer {
+    padding-top: 10%;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .appContainer {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
+
+  /* header */
+  .headerContainer {
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+
+  .navLink {
+    color: gray;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .navLink:hover {
+    color: hsl(0, 0%, 0%) !important;
+  }
+
+  .navLink:focus{
+    color: hsl(0, 0%, 0%);
+  }
+
+  .navLink:active{
+    color: hsl(0, 0%, 0%);
+    border-bottom: 2px solid hsl(26, 100%, 55%);
+  }
+
+  .avatar {
+    height: 2rem;
+  }
+
+  .avatar:active {
+    border: solid;
+    border-radius: 90%;
+    border-color: hsl(26, 100%, 55%, 1.0);
+  }
+
+  /* cart modal */
+  .modal-backdrop.show {
+    opacity: 0;
+  }
+
+  .modal-content {
+    width: 70%;
+    height: 15em;
+  }
+
+  .modal.show {
+    position: relative;
+    top: -670px;
+    left: 500px;
+  }
+
+  .modal-body {
+    display: grid;
+  }
+
+  .modal-title {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  .modalRow {
+    align-items: center;
+    padding-bottom: 7%;
+  }
+
+  .modalThumbCol {
+    padding-right: 0%;
+    text-align: start;
+  }
+
+  .modalThumb {
+    width: 80%;
+    border-radius: 10%;
+  }
+
+  .modalText {
+    text-align: start;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .emptyModalText {
+    text-align: center;
+    padding-right: 0%;
+    padding-left: 0%;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  .modalDelBtn {
+    padding-left: 1%;
+    padding-right: 0%;
+  }
+
+  .modalCheckoutBtn {
+    width: 100%;
+    height: 80%;
+    background-color: hsl(26, 100%, 55%, 1.0);
+    border-style: none;
+  }
+
+  .cartBadge {
+    color:hsl(0, 0%, 100%) !important;
+    background: hsl(26, 100%, 55%, 1.0) !important;
+    position: sticky;
+    vertical-align:super;
+  }
+
+  /* main */
+  .mainContainer {
+    padding-top: 5%;
+  }
+
+  .carousel-inner {
+    border-radius: 5%;
+  }
+
+  .carousel-indicators {
+    top: 105%;
+    margin: 0%;
+  }
+
+  .carousel-indicators button {
+    background-size: cover;
+    background-position: center;
+    width: 8dvw !important;
+    height: 8dvh !important;
+    border: 0.2em solid transparent !important;
+    border-radius: 20%;
+    opacity: 1 !important;
+  }
+
+  .carousel-indicators button:active {
+    opacity: 0.5 !important;
+  }
+
+  .carousel-indicators button:hover {
+    opacity: 0.5 !important;
+  }
+
+  #btn1 {
+    background-image: url('./images/image-product-1-thumbnail.jpg') !important;
+  }
+
+  #btn2 {
+    background-image: url('./images/image-product-2-thumbnail.jpg') !important;
+  }
+
+  #btn3 {
+    background-image: url('./images/image-product-3-thumbnail.jpg') !important;
+  }
+
+  #btn4 {
+    background-image: url('./images/image-product-4-thumbnail.jpg') !important;
+  }
+
+  .carousel-indicators .active {
+    opacity: 0.3 !important;
+    border: 0.2em solid hsl(26, 100%, 55%, 1.0) !important;
+  }
+
+  .productInfo {
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 10%;
+  }
+
+  .companyName {
+    text-transform: uppercase;
+  }
+
+  .productHeading {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+  }
+
+  .productText {
+    letter-spacing: 1px;
+  }
+
+  .lowerPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .discountBadge {
+    color: hsl(26, 100%, 55%);
+    background: hsl(25, 100%, 94%);
+  }
+
+  .regularPrice {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .cartBtn {
+    background-color: hsl(26, 100%, 55%);
+    border-style: none;
+  }
+
+  .cartBtn:hover {
+    background-color: hsl(25, 100%, 94%);
+    border-style: none;
+    box-shadow: 0 2em 0.9em hsl(25, 100%, 94%, 0.2);
+  }
+
+  .cartBtn:active {
+    background-color: hsl(25, 100%, 94%) !important;
+    border-style: none;
+  }
+
+  .cartImg {
+    filter: invert(1) brightness(2);
+    padding-right: 1rem;
+  }
+
+  /* footer */
+  .footerContainer {
+    padding-top: 10%;
+    text-align: center;
+  }
+}
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +1619,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */

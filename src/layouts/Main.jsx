@@ -150,10 +150,10 @@ const Main = (props) => {
                         open={open}
                         close={() => setOpen(false)}
                         slides={[
-                        { src: {pic1}},
-                        { src: {pic2}},
-                        { src: {pic3}},
-                        { src: {pic4}}
+                        { src: '/e-commerce-product-page/assets/image-product-1-D36l1Pee.jpg'},
+                        { src: '/e-commerce-product-page/assets/image-product-2-BT5cmuDx.jpg'},
+                        { src: '/e-commerce-product-page/assets/image-product-3-CDkTofMU.jpg'},
+                        { src: '/e-commerce-product-page/assets/image-product-4-DXKEAM1K.jpg'}
                         ]}
                     />
                 </article>
@@ -202,10 +202,10 @@ const Main = (props) => {
                             open={open}
                             close={() => setOpen(false)}
                             slides={[
-                                { src: {pic1}},
-                                { src: {pic2}},
-                                { src: {pic3}},
-                                { src: {pic4}}
+                                { src: '/e-commerce-product-page/assets/image-product-1-D36l1Pee.jpg'},
+                                { src: '/e-commerce-product-page/assets/image-product-2-BT5cmuDx.jpg'},
+                                { src: '/e-commerce-product-page/assets/image-product-3-CDkTofMU.jpg'},
+                                { src: '/e-commerce-product-page/assets/image-product-4-DXKEAM1K.jpg'}
                             ]}
                         />
                     </figure>

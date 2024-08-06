@@ -227,9 +227,9 @@ const Main = (props) => {
                         </Row>
                         <div>
                             <ButtonGroup className="mb-2 w-100" size="lg">
-                                <Button className='bg-light border-light' onClick={() => dispatch(decrement())}><img src={minus}></img></Button>
+                                <Button className='bg-light border-light' aria-label="Minus" onClick={() => dispatch(decrement())}><img alt="" src={minus}></img></Button>
                                 <InputGroup.Text id="btnGroupAddon2" className="square rounded-0 bg-light border-light w-75 quantity">{count}</InputGroup.Text>
-                                <Button className='bg-light border-light' onClick={() => dispatch(increment())}><img src={plus}></img></Button>
+                                <Button className='bg-light border-light' aria-label="Plus" onClick={() => dispatch(increment())}><img alt="" src={plus}></img></Button>
                             </ButtonGroup>
                         </div>
                         <Button className='cartBtn w-100' size="lg" onClick={() => dispatch(setAmount())}>

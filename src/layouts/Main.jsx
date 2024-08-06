@@ -150,10 +150,10 @@ const Main = (props) => {
                         open={open}
                         close={() => setOpen(false)}
                         slides={[
-                        { src: '/e-commerce-product-page/src/images/image-product-1.jpg'},
-                        { src: '/e-commerce-product-page/src/images/image-product-2.jpg'},
-                        { src: '/e-commerce-product-page/src/images/image-product-3.jpg'},
-                        { src: '/e-commerce-product-page/src/images/image-product-4.jpg'},
+                        { src: {pic1}},
+                        { src: {pic2}},
+                        { src: {pic3}},
+                        { src: {pic4}}
                         ]}
                     />
                 </article>
@@ -202,10 +202,10 @@ const Main = (props) => {
                             open={open}
                             close={() => setOpen(false)}
                             slides={[
-                            { src: '/e-commerce-product-page/src/images/image-product-1.jpg'},
-                            { src: '/e-commerce-product-page/src/images/image-product-2.jpg'},
-                            { src: '/e-commerce-product-page/src/images/image-product-3.jpg'},
-                            { src: '/e-commerce-product-page/src/images/image-product-4.jpg'},
+                                { src: {pic1}},
+                                { src: {pic2}},
+                                { src: {pic3}},
+                                { src: {pic4}}
                             ]}
                         />
                     </figure>

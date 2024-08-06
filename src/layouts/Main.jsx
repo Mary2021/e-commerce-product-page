@@ -150,10 +150,10 @@ const Main = (props) => {
                         open={open}
                         close={() => setOpen(false)}
                         slides={[
-                        { src: './src/images/image-product-1.jpg'},
-                        { src: './src/images/image-product-2.jpg'},
-                        { src: './src/images/image-product-3.jpg'},
-                        { src: './src/images/image-product-4.jpg'},
+                        { src: '/e-commerce-product-page/src/images/image-product-1.jpg'},
+                        { src: '/e-commerce-product-page/src/images/image-product-2.jpg'},
+                        { src: '/e-commerce-product-page/src/images/image-product-3.jpg'},
+                        { src: '/e-commerce-product-page/src/images/image-product-4.jpg'},
                         ]}
                     />
                 </article>
@@ -202,10 +202,10 @@ const Main = (props) => {
                             open={open}
                             close={() => setOpen(false)}
                             slides={[
-                            { src: './src/images/image-product-1.jpg'},
-                            { src: './src/images/image-product-2.jpg'},
-                            { src: './src/images/image-product-3.jpg'},
-                            { src: './src/images/image-product-4.jpg'},
+                            { src: '/e-commerce-product-page/src/images/image-product-1.jpg'},
+                            { src: '/e-commerce-product-page/src/images/image-product-2.jpg'},
+                            { src: '/e-commerce-product-page/src/images/image-product-3.jpg'},
+                            { src: '/e-commerce-product-page/src/images/image-product-4.jpg'},
                             ]}
                         />
                     </figure>

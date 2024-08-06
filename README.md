@@ -54,7 +54,16 @@ https://vitejs.dev/guide/
 
 `npm install react-bootstrap bootstrap`
 
+### Yet Another React Lightbox
+
+- [Yet Another React Lightbox](https://react-bootstrap.netlify.app/)
+
+`npm install yet-another-react-lightbox`
+
+
 ### Redux 
+
+- [Getting started with Redux](https://redux.js.org/introduction/getting-started)
 
 - `npm install @reduxjs/toolkit`
 - `npm i react-redux`
@@ -93,6 +102,7 @@ test: {
 - [React border component](https://mdbootstrap.com/docs/react/utilities/borders/)
 - [How to Customize the React Carousel Component](https://www.youtube.com/watch?v=hVeXkSCuu5k)
 - [Creating context](https://react.dev/reference/react/createContext)
+- [Lightbox for Bootstrap 5](https://trvswgnr.github.io/bs5-lightbox/)
 
 ## Author
 

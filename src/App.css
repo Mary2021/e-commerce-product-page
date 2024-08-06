@@ -1,5 +1,4 @@
 @media only screen and (max-width: 426px) {
-
   /* header and nav */
   .headerContainer {
     padding: 20px;
@@ -58,9 +57,10 @@
   }
 
   .modal.show {
-    position: relative;
-    top: -810px;
-    left: 10px;
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:end;
   }
 
   .modal-body {
@@ -211,7 +211,6 @@
 }
 
 @media only screen and (min-width: 427px) and (max-width: 576px) {
-
   /* header and nav */
   .headerContainer {
     padding: 20px;
@@ -270,9 +269,10 @@
   }
 
   .modal.show {
-    position: relative;
-    top: -810px;
-    left: 10px;
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:end;
   }
 
   .modal-body {
@@ -471,9 +471,10 @@
   }
 
   .modal.show {
-    position: relative;
-    top: -575px;
-    left: 270px;
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:end;
   }
 
   .modal-body {
@@ -614,8 +615,13 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .appContainer {
-    margin-left: 2rem !important;
-    margin-right: 2rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container {
+    max-width: 760px;
   }
 
   /* header */
@@ -672,9 +678,10 @@
   }
 
   .modal.show {
-    position: relative;
-    top: -575px;
-    left: 270px;
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:end;
   }
 
   .modal-body {
@@ -796,9 +803,9 @@
   }
 
   .productInfo {
-    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
     padding-left: 5%;
-    padding-right: 5%;
   }
 
   .companyName {
@@ -868,8 +875,9 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .appContainer {
-    margin-left: 2rem !important;
-    padding-right: 2rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   /* header */
@@ -918,9 +926,10 @@
   }
 
   .modal.show {
-    position: relative;
-    top: -600px;
-    left: 380px;
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content:end;
   }
 
   .modal-body {
@@ -1035,9 +1044,11 @@
   }
 
   .productInfo {
-    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 5%;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 5%; */
   }
 
   .companyName {
@@ -1105,8 +1116,9 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .appContainer {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   /* header */
@@ -1155,9 +1167,10 @@
   }
 
   .modal.show {
-    position: relative;
-    top: -670px;
-    left: 500px;
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: end;
   }
 
   .modal-body {
@@ -1272,9 +1285,11 @@
   }
 
   .productInfo {
-    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 15%;
     padding-left: 5%;
-    padding-right: 5%;
+    padding-right: 5%; */
   }
 
   .companyName {
@@ -1342,8 +1357,9 @@
 
 @media only screen and (min-width: 1400px) {
   .appContainer {
-    padding-left: 5rem !important;
-    padding-right: 5rem !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   /* header */
@@ -1392,9 +1408,10 @@
   }
 
   .modal.show {
-    position: relative;
-    top: -670px;
-    left: 500px;
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: end;
   }
 
   .modal-body {
@@ -1509,9 +1526,11 @@
   }
 
   .productInfo {
-    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 15%;
     padding-left: 5%;
-    padding-right: 10%;
+    padding-right: 10%; */
   }
 
   .companyName {

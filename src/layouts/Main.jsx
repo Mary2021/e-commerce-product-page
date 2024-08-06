@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Badge, Button, ButtonGroup, Carousel, Col, Container, Image, InputGroup, Row } from 'react-bootstrap'
+import Lightbox from "yet-another-react-lightbox"
+import "yet-another-react-lightbox/styles.css"
 import pic1 from './../images/image-product-1.jpg'
 import pic2 from './../images/image-product-2.jpg'
 import pic3 from './../images/image-product-3.jpg'
@@ -15,6 +17,9 @@ import {
 } from "../counterSlice";
 
 const Main = (props) => {
+    //open lightbox
+    const [open, setOpen] = useState(false);
+
     const count = useSelector((state) => state.counter.count);
     const dispatch = useDispatch();
 
@@ -74,26 +79,30 @@ const Main = (props) => {
                                                     className="w-100"
                                                     src={pic1}
                                                     alt="First slide"
+                                                    onClick={() => setOpen(true)}
                                                 />
                                             </Carousel.Item>
                                             <Carousel.Item>
                                                 <img
                                                     className="w-100"
                                                     src={pic2}
-                                                    alt="First slide"
+                                                    alt="Second slide"
+                                                    onClick={() => setOpen(true)}
                                                 />
                                             </Carousel.Item><Carousel.Item>
                                                 <img
                                                     className="w-100"
                                                     src={pic3}
-                                                    alt="First slide"
+                                                    alt="Third slide"
+                                                    onClick={() => setOpen(true)}
                                                 />
                                             </Carousel.Item>
                                             <Carousel.Item>
                                                 <img
                                                     className="w-100"
                                                     src={pic4}
-                                                    alt="First slide"
+                                                    alt="Fourth slide"
+                                                    onClick={() => setOpen(true)}
                                                 />
                                             </Carousel.Item>
                                         </Carousel>
@@ -137,6 +146,16 @@ const Main = (props) => {
                             </Col>
                         </Row>
                     </Container>
+                    <Lightbox
+                        open={open}
+                        close={() => setOpen(false)}
+                        slides={[
+                        { src: './src/images/image-product-1.jpg'},
+                        { src: './src/images/image-product-2.jpg'},
+                        { src: './src/images/image-product-3.jpg'},
+                        { src: './src/images/image-product-4.jpg'},
+                        ]}
+                    />
                 </article>
             </main>)
     } else {
@@ -151,30 +170,44 @@ const Main = (props) => {
                                         className="w-100"
                                         src={pic1}
                                         alt="First slide"
+                                        onClick={() => setOpen(true)}
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
                                         className="w-100"
                                         src={pic2}
-                                        alt="First slide"
+                                        alt="Second slide"
+                                        onClick={() => setOpen(true)}
                                     />
                                 </Carousel.Item><Carousel.Item>
                                     <img
                                         className="w-100"
                                         src={pic3}
-                                        alt="First slide"
+                                        alt="Third slide"
+                                        onClick={() => setOpen(true)}
                                     />
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
                                         className="w-100"
                                         src={pic4}
-                                        alt="First slide"
+                                        alt="Fourth slide"
+                                        onClick={() => setOpen(true)}
                                     />
                                 </Carousel.Item>
                             </Carousel>
                         </Container>
+                        <Lightbox
+                            open={open}
+                            close={() => setOpen(false)}
+                            slides={[
+                            { src: './src/images/image-product-1.jpg'},
+                            { src: './src/images/image-product-2.jpg'},
+                            { src: './src/images/image-product-3.jpg'},
+                            { src: './src/images/image-product-4.jpg'},
+                            ]}
+                        />
                     </figure>
                     <Container>
                         <h6 className='orange companyName'>

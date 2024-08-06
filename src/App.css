@@ -47,6 +47,10 @@
   }
 
    /* cart modal */
+   .modal-dialog {
+    min-width: 340px;
+  }
+
    .modal-backdrop.show {
     opacity: 0;
   }
@@ -259,6 +263,10 @@
   }
 
    /* cart modal */
+   .modal-dialog {
+    min-width: 400px;
+  }
+
    .modal-backdrop.show {
     opacity: 0;
   }
@@ -461,6 +469,10 @@
   }
 
    /* cart modal */
+   .modal-dialog {
+    min-width: 500px;
+  }
+
    .modal-backdrop.show {
     opacity: 0;
   }
@@ -668,6 +680,10 @@
   }
 
   /* cart modal */
+  .modal-dialog {
+    min-width: 500px;
+  }
+
   .modal-backdrop.show {
     opacity: 0;
   }
@@ -916,6 +932,10 @@
   }
 
   /* cart modal */
+  .modal-dialog {
+    min-width: 500px;
+  }
+
   .modal-backdrop.show {
     opacity: 0;
   }
@@ -1157,6 +1177,10 @@
   }
 
   /* cart modal */
+  .modal-dialog {
+    min-width: 500px;
+  }
+
   .modal-backdrop.show {
     opacity: 0;
   }
@@ -1398,6 +1422,9 @@
   }
 
   /* cart modal */
+  .modal-dialog {
+    min-width: 500px;
+  }
   .modal-backdrop.show {
     opacity: 0;
   }
